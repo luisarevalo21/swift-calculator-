@@ -48,7 +48,9 @@ class CalculatorBrain{
     private var variableValues = [String: Double]()
     
     
-    
+    func returnKey() -> Double{
+        variableValues.v
+    }
     
     var operationStack : [(value:Double, operation:String)] = []
     func undo() -> (Double, Bool)? {

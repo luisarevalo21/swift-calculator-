@@ -45,8 +45,10 @@ class ViewController: UIViewController {
     
     @IBAction func variableStore(_ sender: UIButton) {
         if variableText.text != nil {
-            brain.setOperand(variableName: variableText!)
-            brain.setOperand(Operand: display.text)
+            brain.setOperand(variableName: variableText.text!)
+           brain.setOperand(Operand: Double(display.text!)!)
+            
+            print(brain.)
         }
     }
     
